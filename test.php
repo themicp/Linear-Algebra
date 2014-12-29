@@ -1,6 +1,12 @@
 <?php
     include 'vector.php';
     include 'matrix.php';
+    include 'abstract.php';
+    include 'number.php';
+
+    $two = new Integer( 15 );
+    echo $two->value;
+/* MATRIX TEST
     $matrix1 = new Matrix();
     $matrix2 = new Matrix();
 
@@ -21,7 +27,7 @@
 
     $matrix1->multiply( $matrix2 );
     $matrix1->printMatrix();
-
+*/
 /* VECTOR TEST
     $vector1 = new Vector();
     $vector2 = new Vector();
